@@ -1,2 +1,2 @@
-web: python3 bot.py  #koyeb or render 
-worker: python3 bot.py #heroku
+web: python3 bot.py
+worker: python3 bot.py
