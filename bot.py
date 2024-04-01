@@ -94,4 +94,4 @@ if __name__ == '__main__':
     try:
         loop.run_until_complete(Lazy_start())
     except KeyboardInterrupt:
-        logging.info('Service Stopped Bye 👋 !! need help ? @ultroidxTeam or @ultroidofficial_chat')
+        logging.info('Service Stopped Bye 👋')
