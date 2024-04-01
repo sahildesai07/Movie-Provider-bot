@@ -1,7 +1,7 @@
 # ye lo mera bhi @ultroidXTeam 
 # Kanged From @TroJanZheX
 # Thanks @DeletedFromEarth
-# y need to change "6695586027" user_id with yr user_id (thx ki jaruRat.. nhi he !!! )
+# y need to change "6695586027" or "767250672" user_id with yr user_id (thx ki jaruRat.. nhi he !!! )
 
 import asyncio
 import re
