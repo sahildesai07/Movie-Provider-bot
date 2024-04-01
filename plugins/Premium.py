@@ -1,3 +1,5 @@
+# y need to change "6695586027" or "767250672" user_id with yr user_id (thx ki jaruRat.. nhi he !!! )
+
 # SPECIAL THANKS TO @ultroidxTeam FOR MODIFYING and 🤔 neverMind...!
 # SPECIAL THANKS TO [Rishikesh Sharma] @Rk_botowner FOR THESE AMAZING CODES
 # SPECIAL THANKS TO @DeletedFromEarth FOR MODIFYING THESE AMAZING CODES
