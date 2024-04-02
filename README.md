@@ -74,7 +74,7 @@
 * <b> Tutorial </b> [upload on Telegram](https://t.me/Ultroid_Official/323)
 
 ## Variables
-* <b> Tutorial </b> [upload on Telegram](https://t.me/Ultroid_Official/323)
+
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps) For more help watch this [video](https://youtu.be/gZQJ-yTMkEo)
