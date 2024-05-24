@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22505271'))
-API_HASH = environ.get('API_HASH', 'c89a94fcfda4bc06524d0903977fc81e')
+API_ID = int(environ.get('API_ID', '19495376'))
+API_HASH = environ.get('API_HASH', '62e8e48d4cc1dc6f120c0cf5961ba8ab')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6994768927:AAGJMn6BjsJjhLP7yvTYxTL8d1kZkg8OQcE")
 
 # Bot settings
@@ -29,17 +29,17 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io'))
-STREAM_API = (environ.get('STREAM_API', 'PUIAQBIFrydvLhIzAOeGV8yZppu2'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'googlyurl.com'))
+STREAM_API = (environ.get('STREAM_API', 'd83ba0be8626d4b6a7077ba6e477bfdd9c22b9e8'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Ultroid_Official/18'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6695586027').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002027563292').split()] #Channel id for auto indexing ( make sure bot is admin )
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5023341854').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001980696426').split()] #Channel id for auto indexing ( make sure bot is admin )
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5023341854').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1001725568693') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1001245478078') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -62,9 +62,9 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Ultroid_Official/18') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'PUIAQBIFrydvLhIzAOeGV8yZppu2')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'googlyurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'd83ba0be8626d4b6a7077ba6e477bfdd9c22b9e8')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -74,7 +74,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MovizTube')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Ultroid_Official/18') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ultroidxTeam')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002062925443')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001912362438')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/UltroidOfficial_chat') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -88,7 +88,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002075726565')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001912362438')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True) #forwoding /sharing
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
